@@ -1,5 +1,7 @@
 body {
     background-color: black;
+    margin: 0px;
+    padding: 0px;
 }
 
 h1 {
@@ -25,14 +27,59 @@ a {
 
 .container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    margin: 0px;
+    padding: 0px;
 }
 
 .header {
     background-color: #1f2937;
-    padding: 18px;
+    padding: 24px 48px;
+    margin: 0px 24px;
     flex: 1;
     display: flex;
     justify-content: space-between;
+}
+
+.hero-container {
+    background-color: #1f2937;
+    padding: 24px 48px;
+    margin: 0px 24px;
+    color: #e5e7eb;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-container button {
+    border-radius: 5px;
+    border-style: none;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 8px 24px;
+}
+
+.hero {
+    width: 500px;
+}
+.hero p {
+    margin-top: 0px;
+}
+
+.hero h1{
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+
+.hero-image {
+    background-color: #5d708b;
+    width: 500px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
 }

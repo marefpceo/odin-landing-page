@@ -76,7 +76,6 @@ a {
     background-color: #5d708b;
     width: 500px;
     height: auto;
-    flex-shrink: 0;
 }
 
 .hero-image img {
@@ -85,7 +84,7 @@ a {
 }
 
 .info-container {
-    background-color: #e5e7eb;
+    background-color: #ffffff;
     padding: 24px 48px;
     margin: 0px 24px;
     flex: 1;
@@ -97,6 +96,7 @@ a {
 
 .info-container h1 {
     color: #1f2937;
+    font-weight: bolder;
 }
 
 .info-cards {
@@ -108,6 +108,7 @@ a {
 
 .card {
     padding: 20px;
+    color: #1f2937;
 }
 
 .card img{
@@ -118,6 +119,26 @@ a {
     width: 150px;
     height: 150px;
 }
-.text {
-    color: #1f2937;
+
+.quote-container {
+    background-color: #e5e7eb;
+    padding: 24px 48px;
+    margin: 0px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    width: 800px;
+    padding: 0px 36px;
+}
+
+figcaption {
+    font-size: 18px;
+    font-weight: 800;
+    text-align: end;
 }

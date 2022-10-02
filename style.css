@@ -83,3 +83,41 @@ a {
     width: 100%;
     height: auto;
 }
+
+.info-container {
+    background-color: #e5e7eb;
+    padding: 24px 48px;
+    margin: 0px 24px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-container h1 {
+    color: #1f2937;
+}
+
+.info-cards {
+    width: 150px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    padding: 20px;
+}
+
+.card img{
+    border-color: #3882f6;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+}
+.text {
+    color: #1f2937;
+}

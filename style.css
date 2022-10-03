@@ -37,7 +37,6 @@ a {
     background-color: #1f2937;
     padding: 24px 48px;
     margin: 0px 24px;
-    flex: 1;
     display: flex;
     justify-content: space-between;
 }
@@ -51,9 +50,9 @@ a {
     padding: 24px 48px;
     margin: 0px 24px;
     color: #e5e7eb;
-    flex: 1;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 200px;
 }
 
 .hero-container button,
@@ -91,7 +90,6 @@ a {
     background-color: #ffffff;
     padding: 24px 48px;
     margin: 0px 24px;
-    flex: 1;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -177,4 +175,12 @@ figcaption {
 .signup p, .signup h2 {
     margin: 0px;
     padding: 0px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 48px;
+    margin: 0px 24px;
+    text-align: center;
 }

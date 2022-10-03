@@ -56,7 +56,8 @@ a {
     justify-content: space-between;
 }
 
-.hero-container button {
+.hero-container button,
+.signup button {
     border-radius: 5px;
     border-style: none;
     background-color: #3882f6;
@@ -145,4 +146,35 @@ figcaption {
     font-size: 18px;
     font-weight: 800;
     text-align: end;
+}
+
+.action-call {
+    background-color: #ffffff;
+    padding: 48px;
+    margin: 0px 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.signup {
+    border-radius: 5px;
+    border-style: none;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 48px;
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.signup button {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e5e7eb;
+    align-self: center;
+}
+
+.signup p, .signup h2 {
+    margin: 0px;
+    padding: 0px;
 }
